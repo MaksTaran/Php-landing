@@ -1,0 +1,181 @@
+.changesButton{
+    width:230px;
+    height: 50px;
+    background-color: #18181A;
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px;  
+    border: 0;
+    color: #0085FF; 
+    border-radius: 15px;
+    }
+    .changesButton:hover{
+    background-image: linear-gradient(45deg, #0085FF 3.33%, #8F00FF 131.11%);
+    transition: background-image 0.8s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* Второстепенный серый */
+    color: #fff;
+    cursor: pointer;
+       
+    }
+    .mainInfoStart{
+        
+
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 37px;
+        color: #FFFFFF;  
+        margin-right: 10px;
+    }
+
+.surnameInput{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-family: 'Manrope',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+    color: #FFFFFF;
+    border: 0.5px solid #E6E8EE;
+border-radius: 15px;
+padding: 13px 20px;
+padding-left: 40px;
+width: 300px;
+/* Фон инпутов в блоках */
+background-color: #222224;
+/* Линии */
+border: 0px;
+outline: none;
+background-image: url(images/loop.png);
+background-repeat: no-repeat;
+background-position: left;
+background-position-x: 10px;
+text-transform: capitalize;
+}
+
+.viborButtonContainer{
+    display: flex;
+    margin-top: 30px;
+}
+.viborButton{
+    font-family: 'Manrope',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 0 20px 0 20px;
+height: 50px;
+background: #222222;
+border-radius: 15px;
+margin-right: 10px;
+cursor: pointer;
+}
+/* общий стиль кружков в начале */
+.c1,.c2,.c3,.c4,.c5{
+      /* ширина */
+      width:10px;
+      /* высота */
+      height: 10px;
+      /* скругление границ */
+      border-radius: 50%;
+      margin-right: 10px;
+      
+      
+}
+/* цвета кружков */
+.c1{
+  /* цвет фона  */
+  background: #E60045;
+  /* Заметная тень */
+  box-shadow: 0px 5px 15px #FE003D;
+}
+.c2{
+    /* цвет фона  */
+    background: #00FF94;
+    /* Заметная тень */
+    box-shadow: 0px 5px 15px #00FF94;
+  }
+  .c3{
+    /* цвет фона  */
+    background: #FA0DFF;
+    /* Заметная тень */
+    box-shadow: 0px 5px 15px #FA0DFF;
+  }
+  .c4{
+    /* цвет фона  */
+    background: #7B61FF;
+    /* Заметная тень */
+    box-shadow: 0px 5px 15px #7B61FF;
+  }
+  .c5{
+    /* цвет фона  */
+    background: #FFC700;
+    /* Заметная тень */
+    box-shadow: 0px 5px 15px #FFC700;
+  }
+  .line{
+    width: 100%;
+    height: 1.5px;
+    background-color: #2D2D2D;
+    margin:30px 0 30px 0;
+}
+.korzina{
+  font-family: 'Manrope',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  Width:141px;
+  Height:50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  background-image: linear-gradient(45deg, #0085FF 3.33%, #8F00FF 131.11%);
+  border: 0px;
+  border-radius: 15px;
+  background-position:left;
+  /* background-position-y:center ;
+  background-position-x: 14px; */
+ cursor: pointer;
+ margin-left: 10px;
+  }
+  .korzina:hover img{
+      animation: shake 0.25s infinite;
+  }
+  .buttonAddItem{
+    cursor: pointer;
+  }
+  .buttonAddItem:hover img{
+    
+    animation: shake 0.25s infinite;
+  }
+  .functionButtons{
+    display: flex;
+    justify-content: space-between;
+  }
+  .fButtonContainer{
+    display: flex;
+  }
+  /* анимация тряски */
+  @keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  

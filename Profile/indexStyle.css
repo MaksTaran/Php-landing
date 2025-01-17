@@ -1,0 +1,182 @@
+.changesButton{
+    width:230px;
+    height: 50px;
+    background-color: #18181A;
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px;  
+    margin-top: 130px;
+    border: 0;
+    color: #fff; 
+    border-radius: 15px;
+    }
+    .changesButton:hover{
+        background-image: linear-gradient(45deg, #0085FF 3.33%, #8F00FF 131.11%);
+        transition: background-image 0.8s ease;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Manrope',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+        /* Второстепенный серый */
+        color: #fff;
+        border-radius: 12px;
+        cursor: pointer;
+       
+    }
+    .mainInfoStart{
+        width: 260px;
+        height: 25px;
+        font-family: 'Manrope',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;  
+    }
+.pEmail{
+    display: flex;
+}
+.containerInfo{
+    display: flex;
+    width: 571px;
+    height: 316px;
+}
+.surname{
+    margin-bottom: 15px;
+
+
+/* p */
+font-family: 'Manrope',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* Второстепенный серый */
+color: #767676;
+
+}
+.youFoto{
+    
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  
+}
+.containerSurname{
+    margin-top: 30px;
+}
+
+
+.marker{width: 18px;
+height: 18px;
+margin-left: 13px;
+
+}
+.surnameInput{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+width: 215px;
+/* Фон инпутов в блоках */
+background-color: inherit;
+/* Линии */
+border: 0px;
+outline: none;
+
+    background-image: url(images/marker.png);
+background-repeat: no-repeat;
+background-position:right ;
+text-transform: capitalize;
+}
+.surnameBig{
+display: flex;
+align-items: center;
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.datarojdenia{
+    width: 110px;
+    height: 20px;
+    /* p */
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* Второстепенный серый */
+    color: #767676;
+}
+.deleteFoto{
+    width: 30px;
+    height: 30px;
+    background-image: url(images/close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#FF0000 ;
+    
+border-radius: 12px;
+border: 0px;
+margin-left: -20px;
+margin-top: -10px;
+}
+.personalFoto{
+    display: flex;
+    height: 100px;
+}
+.plusFoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    width: 100px;
+    height: 100px;
+    /* Фон инпутов в блоках */
+    background: #18181A;
+border-radius: 15px;      
+}
+
+.deleteFoto:hover{
+    margin-top: -12px;
+    
+    cursor: pointer;
+}
+.plus{
+    font-family: 'Manrope',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+/* Второстепенный серый */
+color: #767676;
+}
+.plus:hover{
+cursor: pointer;
+}
+.plus1{
+    width:14px;
+    height: 14px;
+  padding-bottom: 10px;
+    
+}

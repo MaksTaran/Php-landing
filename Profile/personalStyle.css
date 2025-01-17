@@ -1,0 +1,173 @@
+/* кнопка снизу страницы */
+.changesCod{
+    width: fit-content;
+    height: 50px;
+    background-color: #18181A;
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px;  
+    margin-top: 130px;
+    border: 0;
+    color: #0085FF; 
+    border-radius: 15px;
+    }
+.changesCod:hover{
+    background-image: linear-gradient(45deg, #0085FF 3.33%, #8F00FF 131.11%);
+    transition: background-image 0.8s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    /* Второстепенный серый */
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+   
+}
+
+.containerInfo{
+    display: flex;
+    width: 571px;
+    height: 316px;
+}
+.email{
+    margin-bottom: 15px;
+/* p */
+font-family: 'Manrope',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* Второстепенный серый */
+color: #767676;
+
+}
+
+.containerEmail{
+    margin-top: 30px;
+}
+.marker{
+margin-right: 13px;
+margin-left: 13px;
+
+}
+.mainInfoStart{
+    width: 260px;
+    height: 25px;
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;  
+}
+.emaileBig{
+display: flex;
+align-items: center;
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+
+
+/* Белый и фон блоков Б */
+
+color: #FFFFFF;
+}
+.proof{
+    width: 340px;
+    
+    /* p */
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* Второстепенный серый */
+    color: #767676;
+}
+.deleteFoto{
+    width: 30px;
+    height: 30px;
+    background-image: url(close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#FF0000 ;
+    
+border-radius: 12px;
+border: 0px;
+margin-left: -20px;
+margin-top: -10px;
+}
+.personalFoto{
+    display: flex;
+    height: 100px;
+}
+.plusFoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    width: 100px;
+    height: 100px;
+    /* Фон инпутов в блоках */
+    background: #18181A;
+border-radius: 15px;      
+}
+.deleteFoto:hover{
+    margin-top: -12px;
+    
+    cursor: pointer;
+}
+.plus{
+    font-family: 'Manrope',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+/* Второстепенный серый */
+color: #767676;
+}
+.plus:hover{
+cursor: pointer;
+}
+.plus1{
+    width:14px;
+    height: 14px;
+  padding-bottom: 10px;
+    
+}
+.shifr{
+    color: #0085FF;
+}
+.writeEmail{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+padding: 15px 20px;
+height: 50px;
+width: 380px;
+/* Фон инпутов в блоках */
+background: #18181A;
+/* Линии */
+border: 0px;
+border-radius: 15px;
+outline: none;
+}
